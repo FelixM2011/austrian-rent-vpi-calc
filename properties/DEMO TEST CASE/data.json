@@ -1,0 +1,35 @@
+{
+  "name": "Demo (Test only)",
+  "nation": "AT",
+  "location": "Example City",
+  "street": "Sample Road",
+  "house_number": "1",
+  "door_no": "",
+  "clause_text": "The rent is adjusted annually by the rise of the CPI since lease start, however only once the increase reaches at least 3 %.",
+  "objects": [
+    {
+      "type": "Apartment",
+      "street": "Sample Road",
+      "door_no": "Top 2/4",
+      "rent_eur": 900,
+      "start_date": "2017-12",
+      "base_month": "",
+      "clause_type": "threshold",
+      "threshold_pct": 3
+    },
+    {
+      "type": "Garage / Parking space",
+      "street": "Sample Road",
+      "door_no": "SP 2/4",
+      "rent_eur": 80,
+      "start_date": "2017-12",
+      "base_month": "",
+      "clause_type": "index"
+    },
+    {
+      "type": "Missing object (intentional error case)",
+      "rent_eur": null,
+      "start_date": ""
+    }
+  ]
+}
